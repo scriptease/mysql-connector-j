@@ -1,0 +1,2 @@
+git pull --rebase https://github.com/mysql/mysql-connector-j.git release/8.0 --autostash
+ant dist

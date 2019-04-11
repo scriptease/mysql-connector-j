@@ -54,7 +54,7 @@ public class TimeUtil {
     static final TimeZone GMT_TIMEZONE = TimeZone.getTimeZone("GMT");
 
     // Mappings from TimeZone identifications (prefixed by type: Windows, TZ name, MetaZone, TZ alias, ...), to standard TimeZone Ids
-    private static final String TIME_ZONE_MAPPINGS_RESOURCE = "/com/mysql/cj/util/TimeZoneMapping.properties";
+    private static final String TIME_ZONE_MAPPINGS_RESOURCE = "TimeZoneMapping.properties";
 
     private static Properties timeZoneMappings = null;
 
